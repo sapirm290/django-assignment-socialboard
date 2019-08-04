@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+.content {
+    text-align: center;
+}
+
+.post {
+    border: 1px solid #0aadee;
+    padding: 10px;
+    margin: auto;
+    max-width: 1100px;
+}
+
+.post-title {
+    color: #0aadee;
+}
+
+.post-content {
+    color: #333333;
+}
+
+.post-author {
+    text-align: right;
+    font-family: Pinyon Script;
+}
+
+#addPost {
+    background-color: #66CDAA;
+    color: white;
+}
+
+#addPostDiv {
+    margin: auto;
+    max-width: 1100px;
+    border: 1px dashed black;
+}

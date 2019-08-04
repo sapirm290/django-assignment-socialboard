@@ -10,7 +10,7 @@ from django.contrib.auth.forms import UserCreationForm
 @login_required
 def index(request):
     posts = Post.objects.all()
-    return render(request, 'SocialBoard/posts.html', {'posts': posts})
+    return render(request, 'SocialBoard/main.html', {'posts': posts})
 
 
 class SignUp(generic.CreateView):
