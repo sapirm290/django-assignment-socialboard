@@ -17,6 +17,8 @@ Hello {{request.user.username}}!
     <p class='post-content'>{{post.content}}</p>
     <h6 class='post-author'>{{post.author}}</h6>
   </div>
+  {% empty %}
+  <h1>No messages</h1>
   {% endfor %}
   <div id="addPostDiv">
     <button id='addPost'>+</button>
