@@ -137,7 +137,7 @@ board.start = function(){
     $(document).ready(function(){
         $("#newpostdiv").hide();
         $("#confirmbox").hide();
-        $("#plusbtn").bind("click",board.addnewpost);
+        $("#addPost").bind("click",board.addnewpost);
 
         $(".comments").hide();
         $(".newcommentbox").hide();
